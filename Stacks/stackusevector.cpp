@@ -32,11 +32,12 @@ int main()
 	s.push(2);
 	s.push(3);
 	s.push(4);
-	while(!s.empty())
+/*	while(!s.empty())
 	{
     cout<<s.top()<<" ";
 }
 cout<<endl;
+*/
 	while(!s.empty()){
     cout<<s.top()<<" ";
     s.pop();
